@@ -3,7 +3,7 @@ title: "10 Best Maldives Experiences"
 destination: "Maldives"
 country: "Maldives"
 region: "South Asia"
-source_url: "PLACEHOLDER_URL"
+source_url: "https://www.hudsonandemily.com/maldives/"
 tags: [beaches, islands, snorkeling, scuba-diving, wildlife, luxury, culture, sustainability, fishing]
 tier: null
 best_months: null

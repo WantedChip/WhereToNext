@@ -3,7 +3,7 @@ title: "11-Day Kenya Safari Itinerary"
 destination: "Kenya"
 country: "Kenya"
 region: "East Africa"
-source_url: "PLACEHOLDER_URL"
+source_url: "https://www.hudsonandemily.com/kenya-safari/"
 tags: [safari, wildlife, national-parks, conservation, culture, luxury-camps]
 tier: null
 best_months: null

@@ -3,7 +3,7 @@ title: "Best Things to Do in Switzerland"
 destination: "Switzerland"
 country: "Switzerland"
 region: "Europe"
-source_url: "PLACEHOLDER_URL"
+source_url: "https://www.hudsonandemily.com/switzerland/"
 tags: [mountains, hiking, paragliding, lakes, scenic-trains, food, cities]
 tier: null
 best_months: null

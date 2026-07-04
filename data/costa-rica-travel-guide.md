@@ -3,7 +3,7 @@ title: "16 Best Things to Do in Costa Rica"
 destination: "Costa Rica"
 country: "Costa Rica"
 region: "Central America"
-source_url: "PLACEHOLDER_URL"
+source_url: "https://www.hudsonandemily.com/costa-rica/"
 tags: [rainforest, beaches, waterfalls, wildlife, adventure, hiking, scuba-diving, rafting, volcanoes]
 tier: null
 best_months: null

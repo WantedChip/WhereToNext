@@ -3,7 +3,7 @@ title: "Favorite Things to Do in Peru"
 destination: "Peru"
 country: "Peru"
 region: "South America"
-source_url: "PLACEHOLDER_URL"
+source_url: "https://www.hudsonandemily.com/peru-travel-guide/"
 tags: [history, hiking, mountains, markets, ruins, culture, food, rainforest, wildlife]
 tier: null
 best_months: null

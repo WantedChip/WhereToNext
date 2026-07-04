@@ -3,7 +3,7 @@ title: "Best Things to Do in Argentina"
 destination: "Argentina"
 country: "Argentina"
 region: "South America"
-source_url: "PLACEHOLDER_URL"
+source_url: "https://www.hudsonandemily.com/argentina-travel-guide/"
 tags: [waterfalls, cities, culture, tango, food, glaciers, kayaking, hiking, wildlife]
 tier: null
 best_months: null
