@@ -1,106 +1,67 @@
 ---
-country: Peru
-destination: Peru
-region: South America
-source_url: PLACEHOLDER_URL
-tags:
-- history
-- hiking
-- mountains
-- markets
-- wildlife
-- food
-- rainforest
-- culture
-title: Favorite Things to Do in Peru
+title: "Favorite Things to Do in Peru"
+destination: "Peru"
+country: "Peru"
+region: "South America"
+source_url: "PLACEHOLDER_URL"
+tags: [history, hiking, mountains, markets, ruins, culture, food, rainforest, wildlife]
+tier: null
+best_months: null
+budget_tier: null
+transit_notes: null
 ---
 
 ## Summary
-
-Peru brings together ancient civilizations, dramatic Andean landscapes,
-Pacific coastline, and vast areas of Amazon rainforest. This guide
-follows an eight-day trip through the Cusco region, Lima, and Iquitos,
-covering archaeological sites, mountain hikes, local markets, regional
-food, and rainforest experiences.
+Peru combines ancient civilizations, Andean landscapes, Pacific coastal cities, and access to the Amazon Rainforest. Based on an eight-day trip focused on Cusco, Lima, and Iquitos, the article covers major historic sites, mountain excursions, markets, food experiences, and practical planning advice.
 
 ## Things To Do
-
--   Browse colorful textiles, souvenirs, and local goods at Písac Market
-    in the Sacred Valley.
--   Explore the circular agricultural terraces at Moray and learn how
-    the Incas experimented with farming across different microclimates.
--   Visit the thousands of traditionally managed salt pools at the Maras
-    Salt Mines.
--   Explore Machu Picchu with a guide, hike the Inca Trail, or climb
-    nearby mountains for elevated views of the ruins.
--   Walk through historic downtown Cusco and discover its blend of Incan
-    and Spanish heritage.
--   Visit Coricancha, one of the most important temples of the Inca
-    civilization.
--   Spend time in Plaza de Armas, Cusco's central square surrounded by
-    Incan and colonial history.
--   Shop for food, drinks, clothing, and local products at San Pedro
-    Market.
--   See the ancient stone complex of Saksaywaman near Cusco.
--   Hike to Vinicunca, better known as Rainbow Mountain, for colorful
-    slopes and high-altitude scenery.
--   Continue to nearby Red Valley for dramatic landscapes and a quieter
-    alternative to the main Rainbow Mountain viewpoint.
--   Walk around Lima's Miraflores and Barranco neighborhoods for coastal
-    cliffs, restaurants, and city scenery.
--   Tour downtown Lima to see its historic buildings and architecture.
--   Explore the underground catacombs at the San Francisco de Lima
-    Basilica.
--   Join a Lima food tour and try local specialties such as ceviche,
-    lomo saltado, and pisco sour.
--   Travel to Iquitos for access to the Peruvian Amazon.
--   Try Amazon activities around Iquitos, including piranha fishing.
+- Explore the Sacred Valley and visit its markets, archaeological sites, and mountain scenery.
+- Shop for ponchos and Peruvian souvenirs at Písac Market.
+- See the circular agricultural terraces at Moray.
+- Visit the thousands of traditional salt pools at the Maras Salt Mines.
+- Explore Machu Picchu and learn about the Inca city with a guide.
+- Hike the Inca Trail or climb nearby mountains for elevated views of Machu Picchu.
+- Walk around historic Cusco and visit its major Inca and Spanish-era landmarks.
+- See Coricancha, one of the most important temples of the Inca civilization.
+- Visit Plaza de Armas and observe the mix of Inca and Spanish history in central Cusco.
+- Browse food, drinks, clothing, and other goods at San Pedro Market.
+- Visit the ancient complex of Saksaywaman near Cusco.
+- Hike to Vinicunca, better known as Rainbow Mountain.
+- Add the nearby Red Valley hike for more mountain views and fewer crowds.
+- Walk through the Miraflores and Barranco neighborhoods in Lima.
+- Tour historic central Lima and visit the catacombs beneath the San Francisco de Lima Basilica.
+- Take a Lima food tour to try dishes and drinks such as ceviche, lomo saltado, and pisco sour.
+- Visit Iquitos for access to the Peruvian Amazon.
+- Take an Amazon day trip from Iquitos and try activities such as piranha fishing.
 
 ## Notes From The Article
-
--   Peru offers enough variety for a much longer trip, so the article
-    recommends focusing on no more than three main areas when time is
-    limited.
--   The authors centered their eight-day itinerary around Cusco, Lima,
-    and Iquitos.
--   Arequipa, Nazca, Huacachina, and Paracas are mentioned as places the
-    authors hope to visit on a future trip.
--   A private customized tour simplified hotels, trains, airport
-    transfers, and transportation between remote attractions.
--   The article advises choosing tour operators carefully because only a
-    small portion of the many companies in Cusco are described as
-    professionally certified.
--   Písac Market is busiest on Sunday and is also active on Tuesday and
-    Thursday, with some vendors present on other days.
--   Bargaining is customary at Písac Market.
--   The road to Moray includes unpaved sections, making arranged
-    transportation more convenient than driving independently.
--   The dry season is recommended for photographing the Maras Salt Mines
-    because the pools appear whiter and visitors may get closer to the
-    working areas.
--   During the rainy season, the salt pools look browner, but crowds are
-    smaller and the surrounding mountains are greener.
--   Moray and Maras are located close enough to visit on the same day.
--   A guide can provide historical context at Machu Picchu and help
-    visitors find less crowded areas.
--   Weather at Machu Picchu can change during the day, as the authors
-    experienced rain and clouds before conditions cleared.
--   Rainbow Mountain sits above 17,000 feet, so altitude can be
-    difficult even though the trail is not especially steep.
--   The Rainbow Mountain hike is about 4 km each way, making an 8 km
-    round trip.
--   The drive to Rainbow Mountain is scenic but rough, and the article
-    recommends traveling with a tour.
--   Visiting Rainbow Mountain early can help avoid the largest crowds at
-    the narrow summit area.
--   The authors experienced strong headaches after the Rainbow Mountain
-    excursion, showing how seriously the altitude can affect visitors.
--   Lima can feel very different depending on the neighborhood, with
-    Miraflores and Barranco among the main areas for visitors.
--   The article recommends spending more time around Cusco than Lima
-    while still allowing a couple of days for the capital.
--   More than 60% of Peru is covered by the Amazon rainforest.
--   The authors only had time for a day trip to Iquitos but found it
-    worthwhile for experiencing the Amazon.
--   Eight days felt too short for the wide range of destinations and
-    activities available across Peru.
+- The authors recommend focusing on no more than three regions during a single trip because Peru has a large number of widely separated attractions.
+- Their eight-day itinerary centered on Cusco, Lima, and Iquitos.
+- Other destinations they wanted to visit included Arequipa, Nazca, Huacachina, and Paracas.
+- The authors used a private customized tour in the Cusco region to coordinate hotels, trains, airport transfers, and excursions.
+- The article warns travelers to choose tour operators carefully and states that only a small number of the thousands of companies in Cusco are professionally certified.
+- Písac Market is busiest on Sunday and is also active on Tuesday and Thursday, although vendors can be found on other days.
+- Bargaining is customary at Písac Market.
+- Moray's circular terraces were likely used to experiment with agriculture across different microclimates.
+- The road to Moray includes unpaved sections, so arranged transportation may be easier than driving independently.
+- The Maras Salt Mines contain more than 3,000 pools that are individually owned and worked by local families.
+- The dry season offers whiter salt pools, closer access, and a better chance of seeing local salt harvesting.
+- During the rainy season, the pools appear browner, but crowds are smaller and the surrounding Andes are greener.
+- Moray and the Maras Salt Mines are close enough to combine into the same day trip.
+- Machu Picchu can be reached and experienced in several ways, including guided visits, independent exploration, the Inca Trail, and hikes on nearby mountains.
+- The article states that Machu Picchu can receive up to 5,000 visitors per day, making local knowledge useful for avoiding the busiest areas.
+- Cusco was once the capital of the Inca Empire and has a history extending back more than 3,000 years.
+- Major Cusco attractions mentioned include Coricancha, Plaza de Armas, Cusco Cathedral, San Pedro Market, and Saksaywaman.
+- Rainbow Mountain is about three hours from Cusco and rises above 17,000 feet.
+- The Rainbow Mountain trail is about 4 kilometers each way, or 8 kilometers round trip.
+- The trail itself is not described as especially steep, but the extreme altitude can make the excursion difficult.
+- The drive to Rainbow Mountain is scenic but very bumpy, and the authors recommend using a tour.
+- The authors experienced severe headaches after the Rainbow Mountain trip despite feeling fine during the hike.
+- Starting early at Rainbow Mountain helps avoid the large crowds that gather on the narrow summit area.
+- Red Valley is a short additional hike and was considered worth visiting for its scenery and quieter atmosphere.
+- Lima has an estimated population of roughly 8–11 million people.
+- Miraflores and Barranco are popular visitor areas known for coastal cliffs and upscale dining.
+- The catacombs beneath the San Francisco de Lima Basilica are part of a historic underground burial network associated with more than 100,000 bodies.
+- The article recommends spending more time in the Cusco region than in Lima, while still allowing a couple of days for the capital.
+- More than 60% of Peru is covered by the Amazon Rainforest.
+- Iquitos was presented as one of the easiest access points for experiencing the Amazon in Peru.
