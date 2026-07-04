@@ -6,9 +6,24 @@ region: "Europe"
 source_url: "https://www.hudsonandemily.com/switzerland/"
 tags: [mountains, hiking, paragliding, lakes, scenic-trains, food, cities]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
+best_months: [June, July, August, September]
+budget_tier:
+  backpacker: "$157–250/day"
+  luxury: "$890–1,300/day"
+transit_notes: Most international visitors arrive via Zurich Airport (ZRH), with Geneva (GVA)
+  and Basel (BSL) also serving major international routes. Switzerland is part of
+  the Schengen Area, so travelers from many countries require a Schengen visa,
+  while others may enter visa-free depending on nationality. The country's
+  integrated rail, bus, boat, and mountain transport network is among the world's
+  best, making trains the easiest way to travel between destinations such as
+  Zurich, Interlaken, Lucerne, and Zermatt, with the Swiss Travel Pass covering
+  most public transport.
+score: 
+  cost_value: 5
+  uniqueness: 8
+  transit_ease: 10
+  family_friendliness: 9
+
 ---
 
 ## Summary

@@ -6,9 +6,22 @@ region: "South Asia"
 source_url: "https://www.hudsonandemily.com/maldives/"
 tags: [beaches, islands, snorkeling, scuba-diving, wildlife, luxury, culture, sustainability, fishing]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
+best_months: [January, February, March, April]
+budget_tier:
+  backpacker: "$142–200/day"
+  luxury: "$850–1,200/day"
+transit_notes: Nearly all international visitors arrive via Velana International Airport (MLE)
+  near Malé. From there, resorts and inhabited islands are reached by scheduled
+  speedboats, domestic flights, or seaplanes depending on their location. The
+  Maldives offers a free 30-day visa on arrival for all nationalities meeting
+  entry requirements, and inter-island travel is primarily by ferry or speedboat,
+  with seaplanes commonly used for remote luxury resorts.
+score: 
+  cost_value: 6
+  uniqueness: 10
+  transit_ease: 7
+  family_friendliness: 9
+
 ---
 
 ## Summary

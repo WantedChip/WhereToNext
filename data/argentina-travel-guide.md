@@ -6,9 +6,24 @@ region: "South America"
 source_url: "https://www.hudsonandemily.com/argentina-travel-guide/"
 tags: [waterfalls, cities, culture, tango, food, glaciers, kayaking, hiking, wildlife]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
+best_months: [March, April, October, November]
+budget_tier:
+  backpacker: "$30–67/day"
+  luxury: "$142–300/day"
+transit_notes: Most international visitors arrive at Ministro Pistarini International Airport
+  (EZE) in Buenos Aires, with many domestic flights connecting to destinations
+  such as El Calafate, Ushuaia, Mendoza, and Puerto Iguazú. Citizens of many
+  countries, including the US, Canada, the UK, and most EU nations, can visit
+  Argentina visa-free for tourism (typically up to 90 days), while other
+  nationalities should verify current entry requirements. Long-distance buses
+  provide excellent nationwide coverage, but domestic flights are the most
+  practical option for covering the country's vast distances.
+score: 
+  cost_value: 8
+  uniqueness: 9
+  transit_ease: 7
+  family_friendliness: 8
+
 ---
 
 ## Summary

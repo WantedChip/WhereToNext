@@ -6,9 +6,24 @@ region: "South America"
 source_url: "https://www.hudsonandemily.com/peru-travel-guide/"
 tags: [history, hiking, mountains, markets, ruins, culture, food, rainforest, wildlife]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
+best_months: [May, June, September, October]
+budget_tier:
+  backpacker: "$28–40/day"
+  luxury: "$227–350/day""
+transit_notes: Most international visitors arrive via Jorge Chávez International Airport (LIM)
+  in Lima, with frequent domestic flights connecting Cusco, Arequipa, Iquitos,
+  Juliaca, and other major destinations. Many nationalities, including citizens
+  of the US, Canada, the UK, and most EU countries, can enter Peru visa-free for
+  tourism, while others should verify current entry requirements before travel.
+  Domestic flights are the fastest way to cover Peru's long distances, while
+  comfortable long-distance buses are widely used between destinations in the
+  Andes and along the coast.
+score: 
+  cost_value: 9
+  uniqueness: 10
+  transit_ease: 7
+  family_friendliness: 8
+
 ---
 
 ## Summary
