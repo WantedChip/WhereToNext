@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink-navy: #12213A;
+  --color-atlas-blue: #1B2F4E;
+  --color-chart-paper: #E8DFC8;
+  --color-brass: #B8912F;
+  --color-oxide-red: #A34A34;
+  --color-sea-teal: #3E7C74;
+
+  --font-sans: var(--font-public-sans), sans-serif;
+  --font-serif: var(--font-fraunces), serif;
+  --font-mono: var(--font-ibm-plex-mono), monospace;
+}
+
+/* Custom Scrollbars for horizontal lists and pages */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-ink-navy);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-atlas-blue);
+  border: 2px solid var(--color-ink-navy);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brass);
+}
+
+/* Base style resets and scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #12213A; /* fallback bg-ink-navy */
+  color: #E8DFC8; /* fallback text-chart-paper */
+}
+
