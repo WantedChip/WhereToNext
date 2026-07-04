@@ -9,7 +9,7 @@ tier: null
 best_months: [May, June, September, October]
 budget_tier:
   backpacker: "$28–40/day"
-  luxury: "$227–350/day""
+  luxury: "$227–350/day"
 transit_notes: Most international visitors arrive via Jorge Chávez International Airport (LIM)
   in Lima, with frequent domestic flights connecting Cusco, Arequipa, Iquitos,
   Juliaca, and other major destinations. Many nationalities, including citizens

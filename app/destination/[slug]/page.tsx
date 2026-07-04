@@ -154,6 +154,34 @@ export default async function DestinationPage({ params }: PageProps) {
                 </div>
               </div>
 
+              {/* Explorer Scores */}
+              {destination.score && (
+                <div className="space-y-2 pt-2 border-t border-atlas-blue/60">
+                  <h4 className="font-mono text-xs text-brass uppercase tracking-wider flex items-center gap-1.5">
+                    <Compass className="h-3.5 w-3.5" />
+                    Explorer Scores
+                  </h4>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pl-5 text-xs font-mono text-chart-paper/95">
+                    <div>
+                      <span className="text-brass/80">Cost Value:</span>{" "}
+                      {destination.score.cost_value}/10
+                    </div>
+                    <div>
+                      <span className="text-brass/80">Uniqueness:</span>{" "}
+                      {destination.score.uniqueness}/10
+                    </div>
+                    <div>
+                      <span className="text-brass/80">Transit Ease:</span>{" "}
+                      {destination.score.transit_ease}/10
+                    </div>
+                    <div>
+                      <span className="text-brass/80">Family Friendly:</span>{" "}
+                      {destination.score.family_friendliness}/10
+                    </div>
+                  </div>
+                </div>
+              )}
+
               {/* Tags */}
               <div className="space-y-1.5 pt-2">
                 <h4 className="font-mono text-xs text-brass uppercase tracking-wider">Tags & Focus</h4>

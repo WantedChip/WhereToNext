@@ -15,5 +15,11 @@ export interface Destination {
   best_months: string[] | null;
   budget_tier: BudgetTier | null;
   transit_notes: string | null;
+  score: {
+    cost_value: number;
+    uniqueness: number;
+    transit_ease: number;
+    family_friendliness: number;
+  } | null;
   content: string; // Markdown body content
 }
