@@ -145,12 +145,25 @@ export default function SearchClient({ initialDestinations }: SearchClientProps)
         continue;
       }
 
-      // 2. Perform query search on fields using selected search mode
-      let titleRes: MatchResult = { text: dest.title, matches: [] };
-      let destRes: MatchResult = { text: dest.destination, matches: [] };
-      let countryRes: MatchResult = { text: dest.country, matches: [] };
-      let contentRes: MatchResult = { text: dest.content, matches: [] };
-      let score: number | undefined;
+      // 2. Perform query search on combined text of fields using selected search mode
+      const tagsStr = dest.tags.join(" ");
+      const combinedText = `${dest.title}\n${dest.destination}\n${dest.country}\n${tagsStr}\n${dest.content}`;
+
+      // Calculate indices for each component inside combinedText
+      const titleStart = 0;
+      const titleEnd = dest.title.length;
+
+      const destStart = titleEnd + 1;
+      const destEnd = destStart + dest.destination.length;
+
+      const countryStart = destEnd + 1;
+      const countryEnd = countryStart + dest.country.length;
+
+      const tagsStartPos = countryEnd + 1;
+      const tagsEndPos = tagsStartPos + tagsStr.length;
+
+      const contentStart = tagsEndPos + 1;
+      const contentEnd = contentStart + dest.content.length;
 
       const runMatch = (text: string) => {
         switch (activeMode) {
@@ -169,54 +182,68 @@ export default function SearchClient({ initialDestinations }: SearchClientProps)
         }
       };
 
-      titleRes = runMatch(dest.title);
-      destRes = runMatch(dest.destination);
-      countryRes = runMatch(dest.country);
-      contentRes = runMatch(dest.content);
-
-      if (activeMode === "Fuzzy") {
-        score = titleRes.score ?? destRes.score ?? countryRes.score ?? contentRes.score;
-      }
-
-      const isMatch =
-        titleRes.matches.length > 0 ||
-        destRes.matches.length > 0 ||
-        countryRes.matches.length > 0 ||
-        contentRes.matches.length > 0;
+      const combinedRes = runMatch(combinedText);
+      const score = combinedRes.score;
+      const isMatch = combinedRes.matches.length > 0;
 
       if (isMatch) {
-        // Create match snippet for body text
+        const mapMatchToField = (match: MatchSpan, start: number, end: number) => {
+          const s = Math.max(match.start, start);
+          const e = Math.min(match.end, end);
+          if (s < e) {
+            return { start: s - start, end: e - start };
+          }
+          return null;
+        };
+
+        const titleMatches: MatchSpan[] = [];
+        const destMatches: MatchSpan[] = [];
+        const countryMatches: MatchSpan[] = [];
+        const contentMatches: MatchSpan[] = [];
+
+        for (const m of combinedRes.matches) {
+          const tMatch = mapMatchToField(m, titleStart, titleEnd);
+          if (tMatch) titleMatches.push(tMatch);
+
+          const dMatch = mapMatchToField(m, destStart, destEnd);
+          if (dMatch) destMatches.push(dMatch);
+
+          const cMatch = mapMatchToField(m, countryStart, countryEnd);
+          if (cMatch) countryMatches.push(cMatch);
+
+          const bodyMatch = mapMatchToField(m, contentStart, contentEnd);
+          if (bodyMatch) contentMatches.push(bodyMatch);
+        }
+
+        // Create match snippet for body text using bodyMatches
         let snippet = "";
-        if (contentRes.matches.length > 0) {
-          const firstMatch = contentRes.matches[0];
+        let snippetMatches: MatchSpan[] = [];
+
+        if (contentMatches.length > 0) {
+          const firstMatch = contentMatches[0];
           const start = Math.max(0, firstMatch.start - 60);
           const end = Math.min(dest.content.length, firstMatch.end + 90);
           const rawSnippet = dest.content.slice(start, end);
-          
-          // Re-evaluate offsets relative to the snippet viewport
-          const offsetShift = start;
-          const snippetMatches = contentRes.matches
+
+          snippetMatches = contentMatches
             .filter((m) => m.start >= start && m.end <= end)
             .map((m) => ({
-              start: m.start - offsetShift,
-              end: m.end - offsetShift,
+              start: m.start - start,
+              end: m.end - start,
             }));
 
           snippet = rawSnippet;
-          // Temporarily attach offset shifted match result to draw highlights on snippet
-          contentRes.matches = snippetMatches;
         } else {
           // Fallback to start of description
           snippet = dest.content.slice(0, 150) + "...";
-          contentRes.matches = [];
         }
 
         results.push({
           destination: dest,
-          titleMatches: titleRes.matches,
-          destMatches: destRes.matches,
-          countryMatches: countryRes.matches,
-          contentMatches: contentRes.matches,
+          titleMatches,
+          destMatches,
+          countryMatches,
+          contentMatches: snippetMatches,
           snippet,
           score,
         });
@@ -432,14 +459,12 @@ export default function SearchClient({ initialDestinations }: SearchClientProps)
 
             {searchResults.length > 0 ? (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {searchResults.map(({ destination, titleMatches, destMatches, snippet, contentMatches }) => (
+                {searchResults.map(({ destination, titleMatches, destMatches, countryMatches, snippet, contentMatches }) => (
                   <div key={destination.slug} className="flex flex-col space-y-2 group">
                     <DestinationCard
-                      destination={{
-                        ...destination,
-                        // Inject highlighted versions of text fields if they have matches
-                        title: titleMatches.length > 0 ? destination.title : destination.title,
-                      }}
+                      destination={destination}
+                      destMatches={destMatches}
+                      countryMatches={countryMatches}
                     />
                     
                     {/* Snippet matched body overlay */}

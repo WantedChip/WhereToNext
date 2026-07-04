@@ -28,7 +28,7 @@ export default function HighlightedText({ text, matches, className = "" }: Highl
     segments.push(
       <mark
         key={`highlight-${span.start}-${span.end}-${index}`}
-        className="bg-brass/35 text-chart-paper font-semibold px-0.5 rounded-xs"
+        className="bg-brass/35 text-inherit font-semibold px-0.5 rounded-xs"
       >
         {text.slice(span.start, span.end)}
       </mark>

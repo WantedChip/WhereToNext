@@ -3,13 +3,21 @@ import Link from "next/link";
 import { Compass, ArrowRight } from "lucide-react";
 import { Destination } from "@/lib/types";
 import { getCoordinatesForCountry } from "@/lib/coordinates";
+import { MatchSpan } from "@/lib/search";
+import HighlightedText from "./HighlightedText";
 import TierBadge from "./TierBadge";
 
 interface DestinationCardProps {
   destination: Destination;
+  destMatches?: MatchSpan[];
+  countryMatches?: MatchSpan[];
 }
 
-export default function DestinationCard({ destination }: DestinationCardProps) {
+export default function DestinationCard({
+  destination,
+  destMatches = [],
+  countryMatches = [],
+}: DestinationCardProps) {
   const coords = getCoordinatesForCountry(destination.country);
   const latStr = `${Math.abs(coords.lat).toFixed(4)}° ${coords.lat >= 0 ? "N" : "S"}`;
   const lngStr = `${Math.abs(coords.lng).toFixed(4)}° ${coords.lng >= 0 ? "E" : "W"}`;
@@ -43,11 +51,11 @@ export default function DestinationCard({ destination }: DestinationCardProps) {
         {/* Title & Country */}
         <div>
           <h3 className="font-serif font-bold text-xl leading-tight group-hover:text-brass transition-colors line-clamp-1">
-            {destination.destination}
+            <HighlightedText text={destination.destination} matches={destMatches} />
           </h3>
           <p className="font-mono text-[10px] text-ink-navy/60 uppercase tracking-widest flex items-center gap-1 mt-0.5">
             <Compass className="h-3 w-3 text-brass/70" />
-            {destination.country}
+            <HighlightedText text={destination.country} matches={countryMatches} />
           </p>
         </div>
 

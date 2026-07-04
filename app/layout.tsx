@@ -35,6 +35,7 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${fraunces.variable} ${publicSans.variable} ${ibmPlexMono.variable} h-full antialiased`}
+      data-scroll-behavior="smooth"
     >
       <body className="min-h-full flex flex-col bg-ink-navy text-chart-paper font-sans select-none md:select-text selection:bg-brass selection:text-ink-navy">
         {children}
