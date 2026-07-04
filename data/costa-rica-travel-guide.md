@@ -6,9 +6,25 @@ region: "Central America"
 source_url: "https://www.hudsonandemily.com/costa-rica/"
 tags: [rainforest, beaches, waterfalls, wildlife, adventure, hiking, scuba-diving, rafting, volcanoes]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
+best_months: [January, February, March, April]
+budget_tier: 
+  backpacker: "$59–75/day"
+  luxury: "$374–500/day"
+transit_notes: Most international visitors arrive via Juan Santamaría International Airport (SJO)
+  near San José or Daniel Oduber Quirós International Airport (LIR) in Liberia,
+  with SJO serving the Central Valley and LIR providing convenient access to
+  Guanacaste's beach destinations. Citizens of many countries, including the US,
+  Canada, the UK, and most EU nations, can enter Costa Rica visa-free for tourism
+  (subject to current immigration rules and passport validity requirements). A
+  rental car is the most practical way to explore multiple regions, although
+  long-distance buses connect major towns and shared tourist shuttles are common
+  between popular destinations.
+score: 
+  cost_value: 7 
+  uniqueness: 9
+  transit_ease: 8
+  family_friendliness: 9
+
 ---
 
 ## Summary
