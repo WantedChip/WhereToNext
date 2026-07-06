@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/virginia/"
 tags: [history]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["April", "May", "September", "October", "November"]
+budget_tier:
+  backpacker: "$75–100/day"
+  luxury: "$250–400/day"
+transit_notes: "Ronald Reagan Washington National (DCA) and Washington Dulles International (IAD) serve northern regions, while Richmond International (RIC) is central. Renting a car is highly recommended for driving the Blue Ridge Parkway and exploring Shenandoah or Williamsburg, as public transit is limited outside of cities. Citizens of visa-waiver nations require an ESTA for US entry."
+score:
+  cost_value: 8
+  uniqueness: 8
+  transit_ease: 8
+  family_friendliness: 9
 ---
 
 ## Summary

@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/oahu-hawaii-travel-guide/"
 tags: [beaches]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["April", "May", "September", "October"]
+budget_tier:
+  backpacker: "$150–200/day"
+  luxury: "$500–800/day"
+transit_notes: "Daniel K. Inouye International Airport (HNL) in Honolulu is the primary gateway to the island. Renting a car is recommended to explore the North Shore, though Oahu has the best public bus system ('TheBus') in Hawaii, and rideshares/taxis are readily available in Honolulu. US citizens travel domestically, while international visitors require an ESTA or visa."
+score:
+  cost_value: 7
+  uniqueness: 9
+  transit_ease: 9
+  family_friendliness: 10
 ---
 
 ## Summary

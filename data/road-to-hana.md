@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/road-to-hana/"
 tags: [beaches, waterfalls, hiking, road-trip]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["April", "May", "September", "October", "November"]
+budget_tier:
+  backpacker: "$140–160/day"
+  luxury: "$680–1200/day"
+transit_notes: "Located on the island of Maui; visitors fly into Kahului Airport (OGG) and rent a car. The Road to Hana is a narrow, winding coastal highway featuring 620 curves and 59 one-lane bridges. Drivers must navigate slowly, yielding to local traffic. US citizens travel domestically, while international visitors require an ESTA or visa."
+score:
+  cost_value: 7
+  uniqueness: 10
+  transit_ease: 6
+  family_friendliness: 8
 ---
 
 ## Summary

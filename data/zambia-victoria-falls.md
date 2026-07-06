@@ -6,10 +6,16 @@ region: "Africa"
 source_url: "https://www.hudsonandemily.com/zambia-victoria-falls/"
 tags: [waterfalls, adventure]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["June", "July", "August", "September"]
+budget_tier:
+  backpacker: "$80–150/day"
+  luxury: "$500–1200/day"
+transit_notes: "Harry Mwanga Nkumbula International Airport (LVI) in Livingstone is the closest airport, with Victoria Falls Airport (VFA) across the border in Zimbabwe. Shared minivans and local taxis are the most affordable transit options within Livingstone, while a pedestrian bridge connects the Zambia and Zimbabwe viewpoints. The KAZA UniVisa ($50) covers 30 days of entry for both countries."
+score:
+  cost_value: 8
+  uniqueness: 10
+  transit_ease: 8
+  family_friendliness: 8
 ---
 
 ## Summary

@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/mexico-playa-del-carmen/"
 tags: [travel-guide]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["November", "December", "January", "February", "March", "April"]
+budget_tier:
+  backpacker: "$45–70/day"
+  luxury: "$250–450/day"
+transit_notes: "Cancun International Airport (CUN) is the main entry point, located about 45 minutes north. The ADO bus system offers direct, cheap, and comfortable coach transfers from the airport to downtown Playa del Carmen. Taxis are common for local travel, while public 'colectivo' vans are highly cost-effective for reaching nearby beaches and ruins. Citizens of the US, Canada, EU, and UK enter visa-free for tourism up to 180 days."
+score:
+  cost_value: 8
+  uniqueness: 9
+  transit_ease: 9
+  family_friendliness: 9
 ---
 
 ## Summary

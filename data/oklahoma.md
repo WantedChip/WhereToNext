@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/oklahoma/"
 tags: [wildlife, waterfalls, cities]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["September", "October", "April", "May"]
+budget_tier:
+  backpacker: "$55–80/day"
+  luxury: "$200–350/day"
+transit_notes: "Will Rogers World Airport (OKC) in Oklahoma City and Tulsa International Airport (TUL) are the major airports. Public transportation is limited, making a rental car essential for driving between OKC, Tulsa, and natural sites like Turner Falls. Major highways (I-35, I-40, I-44) cross the state. Citizens of visa-waiver nations require an ESTA for US entry."
+score:
+  cost_value: 9
+  uniqueness: 5
+  transit_ease: 8
+  family_friendliness: 8
 ---
 
 ## Summary

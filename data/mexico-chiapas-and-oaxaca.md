@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/mexico-chiapas-and-oaxaca/"
 tags: [beaches, waterfalls, hiking, history, cities]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["November", "December", "January", "February", "March"]
+budget_tier:
+  backpacker: "$35–55/day"
+  luxury: "$140–250/day"
+transit_notes: "Visitors can fly into Oaxaca International Airport (OAX) or Tuxtla Gutiérrez Airport (TGZ) in Chiapas. Long-distance ADO buses are highly reliable and comfortable for connecting cities, while shared vans (colectivos) serve local routes. Heavy winding mountain roads connect Chiapas and Oaxaca, so flying or overnight buses are common. Citizens of the US, Canada, EU, and UK enter visa-free for tourism up to 180 days."
+score:
+  cost_value: 9
+  uniqueness: 10
+  transit_ease: 7
+  family_friendliness: 8
 ---
 
 ## Summary

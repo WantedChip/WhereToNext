@@ -6,10 +6,16 @@ region: "Europe"
 source_url: "https://www.hudsonandemily.com/rome/"
 tags: [history, food, cities]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["April", "May", "September", "October"]
+budget_tier:
+  backpacker: "$65–100/day"
+  luxury: "$380–600/day"
+transit_notes: "Rome Fiumicino Airport (FCO) is the main international hub, with Ciampino Airport (CIA) hosting regional budget flights. The Leonardo Express train connects FCO directly to Termini Station. The city center is highly walkable, and the public transit network (Metro, buses, and trams) is cheap and easy to use. Registered white taxis are recommended over unlicensed ones. International visitors from visa-exempt countries will require an ETIAS starting in 2025."
+score:
+  cost_value: 8
+  uniqueness: 10
+  transit_ease: 9
+  family_friendliness: 8
 ---
 
 ## Summary

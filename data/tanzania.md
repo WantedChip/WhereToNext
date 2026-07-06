@@ -6,10 +6,16 @@ region: "Africa"
 source_url: "https://www.hudsonandemily.com/tanzania/"
 tags: [wildlife, road-trip, culture]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["June", "July", "August", "September", "October"]
+budget_tier:
+  backpacker: "$35–50/day"
+  luxury: "$350–600/day"
+transit_notes: "Julius Nyerere International (DAR) in Dar es Salaam and Kilimanjaro International Airport (JRO) near Arusha are the main entry points, with Zanzibar Airport (ZNZ) serving the archipelago. Traveling between northern safari parks requires a 4WD vehicle with a driver/guide, while cheap ferries connect Dar es Salaam to Zanzibar. Citizens of most countries require a tourist visa, obtainable online or on arrival."
+score:
+  cost_value: 7
+  uniqueness: 10
+  transit_ease: 7
+  family_friendliness: 8
 ---
 
 ## Summary

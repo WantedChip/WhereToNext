@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/tennessee/"
 tags: [travel-guide]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["April", "May", "September", "October"]
+budget_tier:
+  backpacker: "$80–120/day"
+  luxury: "$260–450/day"
+transit_notes: "Nashville International Airport (BNA) and Memphis International Airport (MEM) are the primary air hubs. Public transit options exist but are limited; renting a car is highly recommended for traveling between cities and accessing Great Smoky Mountains National Park. Within Nashville, rideshares and walking are popular. Citizens of visa-waiver nations require an ESTA for US entry."
+score:
+  cost_value: 8
+  uniqueness: 8
+  transit_ease: 8
+  family_friendliness: 9
 ---
 
 ## Summary

@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/south-carolina/"
 tags: [beaches]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["March", "April", "May", "September", "October", "November"]
+budget_tier:
+  backpacker: "$80–120/day"
+  luxury: "$260–500/day"
+transit_notes: "Charleston International Airport (CHS) and Myrtle Beach International Airport (MYR) are the primary entry airports. Renting a car is highly recommended for traveling between Charleston, Myrtle Beach, and inland Greenville. Historic downtown Charleston is extremely walkable. Citizens of visa-waiver nations require an ESTA for US entry."
+score:
+  cost_value: 8
+  uniqueness: 8
+  transit_ease: 8
+  family_friendliness: 9
 ---
 
 ## Summary

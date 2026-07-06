@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/oregon/"
 tags: [beaches, wildlife, waterfalls, hiking]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["July", "August", "September"]
+budget_tier:
+  backpacker: "$85–110/day"
+  luxury: "$280–500/day"
+transit_notes: "Portland International Airport (PDX) is the primary gateway, with Eugene Airport (EUG) and Rogue Valley International-Medford Airport (MFR) serving other regions. TriMet transit works beautifully within Portland, but renting a car is essential for exploring the Oregon Coast, the Columbia River Gorge, and Crater Lake. Oregon has no sales tax, reducing minor expenses. Citizens of visa-waiver countries (e.g., EU, UK) require an ESTA for US entry."
+score:
+  cost_value: 8
+  uniqueness: 9
+  transit_ease: 8
+  family_friendliness: 9
 ---
 
 ## Summary

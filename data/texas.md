@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/texas/"
 tags: [history]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["March", "April", "May", "September", "October", "November"]
+budget_tier:
+  backpacker: "$60–90/day"
+  luxury: "$250–400/day"
+transit_notes: "Dallas/Fort Worth International (DFW) and George Bush Intercontinental (IAH) in Houston are massive global hubs. Texas is highly car-dependent, and renting a car is essential for exploring the vast distances between cities like Austin, Houston, and San Antonio. Citizens of visa-waiver nations require an ESTA for US entry."
+score:
+  cost_value: 8
+  uniqueness: 8
+  transit_ease: 8
+  family_friendliness: 9
 ---
 
 ## Summary

@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/mexico/"
 tags: [beaches, waterfalls, hiking, history, cities, adventure]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["November", "December", "January", "February", "March", "April"]
+budget_tier:
+  backpacker: "$35–60/day"
+  luxury: "$200–400/day"
+transit_notes: "Benito Juárez International (MEX) and Cancun International (CUN) are the primary entry gateways. Domestic flights and a robust first-class bus network (e.g., ADO, ETN) connect major cities, while Ubers and registered taxis are popular for urban travel. Car rentals are useful for coastal road trips but require third-party liability insurance. Citizens of the US, Canada, UK, and EU do not require a visa for tourist visits under 180 days."
+score:
+  cost_value: 8
+  uniqueness: 10
+  transit_ease: 8
+  family_friendliness: 9
 ---
 
 ## Summary

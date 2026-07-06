@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/mexico-yucatan-peninsula/"
 tags: [beaches, waterfalls, history, adventure, culture]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["November", "December", "January", "February", "March", "April"]
+budget_tier:
+  backpacker: "$45–70/day"
+  luxury: "$250–450/day"
+transit_notes: "Cancun International Airport (CUN) and Mérida Airport (MID) are the main gateways. ADO buses run frequently between major cities, while renting a car is highly recommended for exploring off-the-beaten-path ruins and cenotes. The Maya Train connects major cities and ruins across the peninsula. Citizens of the US, Canada, EU, and UK enter visa-free for tourism up to 180 days."
+score:
+  cost_value: 8
+  uniqueness: 10
+  transit_ease: 9
+  family_friendliness: 9
 ---
 
 ## Summary

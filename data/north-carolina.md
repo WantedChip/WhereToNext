@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/north-carolina/"
 tags: [travel-guide]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["May", "June", "September", "October"]
+budget_tier:
+  backpacker: "$85–110/day"
+  luxury: "$270–500/day"
+transit_notes: "Charlotte Douglas International Airport (CLT) and Raleigh-Durham International Airport (RDU) are the primary entry gateways. Renting a car is highly recommended for traveling between cities, Asheville in the Blue Ridge Mountains, and the coastal Outer Banks, as public transit is limited. Citizens of visa-waiver nations require an ESTA for US entry."
+score:
+  cost_value: 8
+  uniqueness: 8
+  transit_ease: 8
+  family_friendliness: 9
 ---
 
 ## Summary

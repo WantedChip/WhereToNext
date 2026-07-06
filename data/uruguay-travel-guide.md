@@ -6,10 +6,16 @@ region: "South America"
 source_url: "https://www.hudsonandemily.com/uruguay-travel-guide/"
 tags: [travel-guide]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["December", "January", "February"]
+budget_tier:
+  backpacker: "$40–70/day"
+  luxury: "$150–200/day"
+transit_notes: "Carrasco International Airport (MVD) in Montevideo is the primary entry point. The inter-city bus system is highly modern, efficient, and comfortable for traveling along the coast, while the Buquebus ferry connects Buenos Aires to Colonia del Sacramento and Montevideo. Cities are safe and highly walkable. Citizens of the US, Canada, EU, and UK enter visa-free for tourism up to 90 days."
+score:
+  cost_value: 8
+  uniqueness: 8
+  transit_ease: 9
+  family_friendliness: 9
 ---
 
 ## Summary

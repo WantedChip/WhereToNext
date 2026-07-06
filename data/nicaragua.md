@@ -6,10 +6,16 @@ region: "Central America"
 source_url: "https://www.hudsonandemily.com/nicaragua/"
 tags: [waterfalls, hiking]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["November", "December", "January", "February", "March", "April"]
+budget_tier:
+  backpacker: "$24–35/day"
+  luxury: "$100–180/day"
+transit_notes: "Augusto C. Sandino International Airport (MGA) in Managua is the main gateway. Inter-city microbuses and 'chicken buses' are cheap and abundant for traveling to Leon or Granada, while boats/ferries connect to Ometepe Island and the Corn Islands. Car rental is possible but road signs can be sparse. Citizens of the US, Canada, EU, and UK do not require a visa but must purchase a tourist card upon arrival."
+score:
+  cost_value: 10
+  uniqueness: 9
+  transit_ease: 7
+  family_friendliness: 8
 ---
 
 ## Summary

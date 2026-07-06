@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/utah/"
 tags: [wildlife, waterfalls, hiking, history, cities]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["September", "October", "April", "May"]
+budget_tier:
+  backpacker: "$60–120/day"
+  luxury: "$350–600/day"
+transit_notes: "Salt Lake City International Airport (SLC) is the primary hub, with St. George Regional Airport (SGU) serving southern parks. Renting a car is essential for exploring national parks like Zion, Bryce Canyon, and Monument Valley. An America the Beautiful pass is highly cost-effective for multi-park entry. Citizens of visa-waiver nations require an ESTA for US entry."
+score:
+  cost_value: 8
+  uniqueness: 10
+  transit_ease: 8
+  family_friendliness: 9
 ---
 
 ## Summary

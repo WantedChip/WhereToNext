@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/mexico-pacific-coast/"
 tags: [beaches]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["November", "December", "January", "February", "March", "April"]
+budget_tier:
+  backpacker: "$40–70/day"
+  luxury: "$250–400/day"
+transit_notes: "Licensing airports include Licenciado Gustavo Díaz Ordaz International (PVR) in Puerto Vallarta and Miguel Hidalgo y Costilla International (GDL) in Guadalajara. Public buses are extremely cheap and efficient for traveling between cities and coastal towns like Sayulita, while Uber and registered taxis are safe for urban transport. Renting a car is useful for exploring the coastline but not strictly necessary. Citizens of the US, Canada, EU, and UK enter visa-free for up to 180 days."
+score:
+  cost_value: 8
+  uniqueness: 8
+  transit_ease: 8
+  family_friendliness: 9
 ---
 
 ## Summary

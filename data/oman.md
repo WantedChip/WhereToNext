@@ -6,10 +6,16 @@ region: "Asia"
 source_url: "https://www.hudsonandemily.com/oman/"
 tags: [hiking, history]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["October", "November", "December", "January", "February", "March"]
+budget_tier:
+  backpacker: "$80–140/day"
+  luxury: "$350–600/day"
+transit_notes: "Muscat International Airport (MCT) is the primary gateway, with Salalah Airport (SLL) serving the south. Public transportation is highly limited, so renting a 4WD vehicle is the most practical way to explore the mountain roads of Jabal Akhdar and the dunes of Wahiba Sands. Taxis are common in Muscat, and booking via local apps like Otaxi is recommended. Citizens of over 100 countries (including the US, Canada, EU, and UK) enter visa-free for up to 14 days, with longer stays requiring an e-visa."
+score:
+  cost_value: 7
+  uniqueness: 9
+  transit_ease: 7
+  family_friendliness: 9
 ---
 
 ## Summary

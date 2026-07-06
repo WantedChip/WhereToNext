@@ -6,10 +6,16 @@ region: "Africa"
 source_url: "https://www.hudsonandemily.com/omo-valley-ethiopia/"
 tags: [travel-guide]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["October", "November", "December", "January", "February", "March"]
+budget_tier:
+  backpacker: "$50–70/day"
+  luxury: "$250–350/day"
+transit_notes: "Travelers typically fly from Addis Ababa Bole International Airport (ADD) to Jinka (BCO) or Arba Minch (AMH), then hire a private 4x4 vehicle with a driver. Navigating dirt roads requires high-clearance 4WD vehicles, especially during rain transitions. Ethiopia requires most nationalities to obtain an e-visa or visa on arrival."
+score:
+  cost_value: 7
+  uniqueness: 10
+  transit_ease: 5
+  family_friendliness: 4
 ---
 
 ## Summary

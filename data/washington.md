@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/washington/"
 tags: [hiking]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["July", "August", "September"]
+budget_tier:
+  backpacker: "$110–150/day"
+  luxury: "$350–550/day"
+transit_notes: "Seattle-Tacoma International Airport (SEA) is the primary global gateway, with Spokane International Airport (GEG) serving eastern Washington. Light rail and buses connect Seattle efficiently, but renting a car is essential for exploring Mount Rainier, Olympic National Park, and Mount St. Helens. Citizens of visa-waiver nations require an ESTA for US entry."
+score:
+  cost_value: 7
+  uniqueness: 10
+  transit_ease: 8
+  family_friendliness: 9
 ---
 
 ## Summary

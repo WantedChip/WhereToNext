@@ -6,10 +6,16 @@ region: "Europe"
 source_url: "https://www.hudsonandemily.com/paris/"
 tags: [waterfalls, food]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["April", "May", "September", "October"]
+budget_tier:
+  backpacker: "$100–130/day"
+  luxury: "$800–1100/day"
+transit_notes: "Charles de Gaulle Airport (CDG) and Orly Airport (ORY) are the primary entry gateways. The RER train and the highly efficient Paris Métro network are the fastest, cheapest, and most practical ways to traverse the city, and the central city is highly walkable. Taxis and Uber are available but subject to heavy traffic. Citizens of visa-exempt countries require a valid passport and, starting in 2025, an ETIAS for entry."
+score:
+  cost_value: 7
+  uniqueness: 10
+  transit_ease: 10
+  family_friendliness: 8
 ---
 
 ## Summary

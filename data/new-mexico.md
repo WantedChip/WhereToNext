@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/new-mexico/"
 tags: [wildlife, history]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["September", "October", "March", "April"]
+budget_tier:
+  backpacker: "$65–85/day"
+  luxury: "$250–350/day"
+transit_notes: "Albuquerque International Sunport (ABQ) is the primary airport. Renting a car is highly recommended for traveling between Albuquerque, Santa Fe, Carlsbad Caverns, and White Sands, as public transit is limited. The Rail Runner Express train connects Albuquerque and Santa Fe. Citizens of visa-waiver nations require an ESTA for US entry."
+score:
+  cost_value: 8
+  uniqueness: 9
+  transit_ease: 8
+  family_friendliness: 9
 ---
 
 ## Summary

@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/mexico-city/"
 tags: [history, food, cities, culture]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["November", "December", "January", "February", "March", "April"]
+budget_tier:
+  backpacker: "$45–65/day"
+  luxury: "$250–450/day"
+transit_notes: "Benito Juárez International Airport (MEX) is the main gateway, located close to the city center. The Metro and Metrobus systems are extensive, efficient, and extremely cheap, while Uber is highly popular, safe, and reasonably priced. Widespread walkability makes neighborhoods like Roma, Condesa, and the Centro Histórico easy to explore on foot. Citizens of the US, Canada, EU, and UK do not require a visa for tourist stays up to 180 days."
+score:
+  cost_value: 9
+  uniqueness: 10
+  transit_ease: 8
+  family_friendliness: 8
 ---
 
 ## Summary

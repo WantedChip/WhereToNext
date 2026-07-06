@@ -6,10 +6,16 @@ region: "Africa"
 source_url: "https://www.hudsonandemily.com/uganda/"
 tags: [wildlife, waterfalls, adventure]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["June", "July", "August", "September", "December", "January", "February"]
+budget_tier:
+  backpacker: "$50–70/day"
+  luxury: "$250–500/day"
+transit_notes: "Entebbe International Airport (EBB) near Kampala is the primary entry point. Renting a 4WD vehicle with a driver/guide is highly recommended due to complex road conditions and long distances, though public buses (matatus) are cheap for travel between cities. Citizens of most countries must purchase an e-visa online prior to travel."
+score:
+  cost_value: 8
+  uniqueness: 10
+  transit_ease: 6
+  family_friendliness: 7
 ---
 
 ## Summary

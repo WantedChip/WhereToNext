@@ -6,10 +6,16 @@ region: "Africa"
 source_url: "https://www.hudsonandemily.com/rwanda/"
 tags: [history, food, cities, culture]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["June", "July", "August", "September", "December", "January", "February"]
+budget_tier:
+  backpacker: "$40–60/day"
+  luxury: "$200–350/day"
+transit_notes: "Kigali International Airport (KGL) is situated very close to the city center. Within the capital, motorbike taxis (motos) are the most popular, cheap, and convenient mode of transit, while registered yellow-stripe taxis are also available. Kigali is extremely clean, safe, and highly walkable compared to other East African capitals. A tourist visa is required for most nationalities and can be obtained on arrival or online."
+score:
+  cost_value: 8
+  uniqueness: 8
+  transit_ease: 9
+  family_friendliness: 8
 ---
 
 ## Summary

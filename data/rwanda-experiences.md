@@ -6,10 +6,16 @@ region: "Africa"
 source_url: "https://www.hudsonandemily.com/rwanda-experiences/"
 tags: [wildlife, waterfalls, hiking, history]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["June", "July", "August", "September", "December", "January", "February"]
+budget_tier:
+  backpacker: "$50–70/day"
+  luxury: "$500–1000/day"
+transit_notes: "Kigali International Airport (KGL) is the main point of entry, located close to the capital. Driving is well-regulated and clean, but mountain roads to Volcanoes National Park require cautious driving or hiring a 4WD vehicle with a driver. Motorbike taxis (motos) are the primary, cheap transport option within Kigali. A tourist visa is required for most nationalities and can be obtained online or on arrival."
+score:
+  cost_value: 6
+  uniqueness: 10
+  transit_ease: 8
+  family_friendliness: 6
 ---
 
 ## Summary

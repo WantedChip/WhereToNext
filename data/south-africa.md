@@ -6,10 +6,16 @@ region: "Africa"
 source_url: "https://www.hudsonandemily.com/south-africa/"
 tags: [beaches, wildlife, waterfalls, hiking, food, cities, road-trip, adventure]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["May", "June", "July", "August", "September"]
+budget_tier:
+  backpacker: "$30–60/day"
+  luxury: "$400–700/day"
+transit_notes: "OR Tambo International (JNB) in Johannesburg and Cape Town International (CPT) are the primary global hubs. Renting a car is popular and practical for the Garden Route and self-drive safaris, while Uber is safe and cheap in major cities. Long-distance buses are economical, and domestic flights quickly connect far-flung cities. Citizens of the US, Canada, EU, and UK enter visa-free for tourism up to 90 days."
+score:
+  cost_value: 9
+  uniqueness: 10
+  transit_ease: 8
+  family_friendliness: 9
 ---
 
 ## Summary

@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/nevada/"
 tags: [waterfalls, hiking, cities]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["May", "June", "September", "October"]
+budget_tier:
+  backpacker: "$80–130/day"
+  luxury: "$350–800/day"
+transit_notes: "Harry Reid International Airport (LAS) in Las Vegas is the main global hub, while Reno-Tahoe International Airport (RNO) serves northern Nevada. Renting a car is highly recommended for driving to parks like Valley of Fire or Red Rock Canyon, though rideshares and the Monorail are convenient within Las Vegas. Citizens of visa-waiver nations require an ESTA for US entry."
+score:
+  cost_value: 7
+  uniqueness: 9
+  transit_ease: 8
+  family_friendliness: 8
 ---
 
 ## Summary
