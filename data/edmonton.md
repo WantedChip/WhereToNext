@@ -16,6 +16,9 @@ score:
   uniqueness: 6
   transit_ease: 8
   family_friendliness: 9
+coordinates:
+  lat: 53.5462055
+  lng: -113.491241
 ---
 
 ## Summary
