@@ -6,10 +6,21 @@ region: "South America"
 source_url: "https://www.hudsonandemily.com/brazil-travel-guide/"
 tags: [waterfalls]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: [July, August, September, October]
+budget_tier:
+  backpacker: "$37-97/day"
+  luxury: "$97-270/day"
+transit_notes: Brazil's main international gateways include Sao Paulo-Guarulhos
+  and Rio de Janeiro-Galeao, with domestic flights useful for linking Rio, Sao
+  Paulo, Foz do Iguacu, the Amazon, and beach regions. Large cities have metro,
+  bus, taxi, and rideshare options, but long intercity distances often make
+  flights more practical than overland travel. U.S. travelers should verify
+  current Brazil visa and e-visa requirements before booking.
+score:
+  cost_value: 8
+  uniqueness: 9
+  transit_ease: 6
+  family_friendliness: 7
 ---
 
 ## Summary

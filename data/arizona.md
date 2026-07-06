@@ -6,10 +6,21 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/arizona/"
 tags: [waterfalls, hiking]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: [March, April, October, November]
+budget_tier:
+  backpacker: "$121-325/day"
+  luxury: "$325-928/day"
+transit_notes: Phoenix Sky Harbor is the main air gateway, with Tucson and
+  Phoenix-Mesa Gateway also useful depending on the itinerary. A rental car is
+  the practical default for linking Phoenix or Tucson with Sedona, Williams, the
+  Grand Canyon, Horseshoe Bend, Lake Powell, and Antelope Canyon. U.S. travelers
+  do not need a visa for domestic travel, while international visitors follow
+  standard U.S. entry rules.
+score:
+  cost_value: 6
+  uniqueness: 9
+  transit_ease: 8
+  family_friendliness: 8
 ---
 
 ## Summary

@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/kauai-hawaii-travel-guide/"
 tags: [travel-guide]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["April", "May", "September", "October"]
+budget_tier:
+  backpacker: "$150–250/day"
+  luxury: "$700–1200/day"
+transit_notes: "Lihue Airport (LIH) is the main entry point. Renting a car is essential for exploring the island's scenic points and trailheads, as public transit is extremely limited. Scenic helicopter tours or boat charters are popular to view the inaccessible Nā Pali Coast. US citizens travel domestically, while international visitors require an ESTA or visa for entry."
+score:
+  cost_value: 6
+  uniqueness: 10
+  transit_ease: 8
+  family_friendliness: 8
 ---
 
 ## Summary

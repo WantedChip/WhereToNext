@@ -6,10 +6,16 @@ region: "Central America"
 source_url: "https://www.hudsonandemily.com/guatemala/"
 tags: [waterfalls, hiking, history, food, cities, culture]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["November", "December", "January", "February", "March", "April"]
+budget_tier:
+  backpacker: "$30–50/day"
+  luxury: "$120–200/day"
+transit_notes: "La Aurora International Airport (GUA) in Guatemala City is the main entry point. Shared tourist shuttles are the most common and safest transit for traveling between Guatemala City, Antigua, and Lake Atitlán, while boats connect the villages on Lake Atitlán. A rental car is useful for Tikal or Semuc Champey, but winding mountain roads make long-distance driving challenging. Citizens of the US, Canada, UK, and EU do not require a visa for tourist stays up to 90 days."
+score:
+  cost_value: 9
+  uniqueness: 10
+  transit_ease: 7
+  family_friendliness: 8
 ---
 
 ## Summary

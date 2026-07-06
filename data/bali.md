@@ -6,10 +6,21 @@ region: "Asia"
 source_url: "https://www.hudsonandemily.com/bali/"
 tags: [beaches, hiking, history, food, road-trip]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: [May, June, September, October]
+budget_tier:
+  backpacker: "$23-64/day"
+  luxury: "$64-194/day"
+transit_notes: Bali is served by I Gusti Ngurah Rai International Airport near
+  Denpasar, Kuta, and the southern beach areas. Traffic can be heavy, so most
+  visitors use private drivers, taxis, rideshare apps, hotel transfers, or
+  scooters where they are comfortable and properly licensed. Many U.S. visitors
+  use Indonesia's visa-on-arrival or e-visa process for short tourism stays, but
+  passport validity, arrival card, and visa rules should be checked before travel.
+score:
+  cost_value: 9
+  uniqueness: 8
+  transit_ease: 7
+  family_friendliness: 7
 ---
 
 ## Summary

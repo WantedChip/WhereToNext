@@ -6,10 +6,16 @@ region: "Central America"
 source_url: "https://www.hudsonandemily.com/costa-rica-la-fortuna/"
 tags: [waterfalls, hiking, history, adventure]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["January", "February", "March", "April"]
+budget_tier:
+  backpacker: "$50–75/day"
+  luxury: "$250–500/day"
+transit_notes: "Located in the Northern Highlands of Costa Rica, La Fortuna is most easily reached via a 2.5 to 3-hour drive from Juan Santamaría International Airport (SJO) in San José or Daniel Oduber Quirós International Airport (LIR) in Liberia. Renting a 4WD car is the most popular transit option, but shared tourist shuttles (like Interbus or Gray Line) and public buses are also widely available. Citizens of the US, Canada, EU, and UK do not require a visa for stays up to 90 days."
+score:
+  cost_value: 8
+  uniqueness: 9
+  transit_ease: 8
+  family_friendliness: 9
 ---
 
 ## Summary

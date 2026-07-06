@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/edmonton/"
 tags: [food, cities]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["June", "July", "August", "September"]
+budget_tier:
+  backpacker: "$60–90/day"
+  luxury: "$250–400/day"
+transit_notes: "Edmonton International Airport (YEG) is the main air hub. Driving is the most practical way to traverse this sprawling city, though the Edmonton Transit Service (ETS) provides light rail (LRT) and bus options. US, EU, and UK citizens generally do not require a visa for tourist stays up to 6 months."
+score:
+  cost_value: 7
+  uniqueness: 6
+  transit_ease: 8
+  family_friendliness: 9
 ---
 
 ## Summary

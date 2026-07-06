@@ -6,10 +6,16 @@ region: "Africa"
 source_url: "https://www.hudsonandemily.com/kenya/"
 tags: [beaches, wildlife, waterfalls, culture]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["January", "February", "July", "August"]
+budget_tier:
+  backpacker: "$59–80/day"
+  luxury: "$300–600/day"
+transit_notes: "Most international travelers arrive at Jomo Kenyatta International Airport (NBO) in Nairobi, the country's primary international gateway. Kenya requires most visitors to obtain an Electronic Travel Authorization (eTA) before arrival, even though many nationalities no longer need a traditional visa. Safari itineraries typically combine road transfers with domestic flights to reserves such as the Maasai Mara, while taxis, ride-hailing services, and organized transfers are the easiest ways to get around Nairobi."
+score:
+  cost_value: 7
+  uniqueness: 10
+  transit_ease: 9
+  family_friendliness: 9
 ---
 
 ## Summary

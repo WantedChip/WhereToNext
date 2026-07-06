@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/british-columbia/"
 tags: [travel-guide]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["May", "June", "September", "October"]
+budget_tier:
+  backpacker: "$65–100/day"
+  luxury: "$360–720/day"
+transit_notes: "Vancouver International Airport (YVR) serves as the primary gateway, with Victoria International Airport (YYJ) or BC Ferries providing access to Vancouver Island. Public transit systems (SkyTrain in Vancouver, BC Transit in Victoria) are highly efficient for getting around, while walking and cycling are common. US and EU citizens generally enter Canada visa-free for up to 6 months."
+score:
+  cost_value: 7
+  uniqueness: 8
+  transit_ease: 9
+  family_friendliness: 9
 ---
 
 ## Summary

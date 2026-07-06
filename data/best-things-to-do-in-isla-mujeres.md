@@ -6,10 +6,21 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/best-things-to-do-in-isla-mujeres/"
 tags: [food]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: [January, February, March, April]
+budget_tier:
+  backpacker: "$52-145/day"
+  luxury: "$145-445/day"
+transit_notes: Isla Mujeres is usually reached by flying into Cancun
+  International Airport, transferring to a Cancun ferry terminal, and taking a
+  short passenger ferry to the island. Golf carts, scooters, taxis, walking, and
+  bicycles are the common ways to get around once there. U.S. citizens generally
+  do not need a visa for short tourism visits to Mexico, but current immigration
+  and passport rules should be checked before travel.
+score:
+  cost_value: 7
+  uniqueness: 7
+  transit_ease: 7
+  family_friendliness: 8
 ---
 
 ## Summary

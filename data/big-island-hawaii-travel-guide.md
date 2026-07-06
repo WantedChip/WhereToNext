@@ -6,10 +6,21 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/big-island-hawaii-travel-guide/"
 tags: [beaches]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: [April, May, September, October]
+budget_tier:
+  backpacker: "$121-325/day"
+  luxury: "$325-928/day"
+transit_notes: Hawaii Island is served by Kona International Airport on the west
+  side and Hilo International Airport on the east side. A rental car is strongly
+  recommended because beaches, Volcanoes National Park, Hilo, Kona, Mauna Kea,
+  and scenic drives are spread across a large island with limited transit.
+  U.S. travelers do not need a visa for domestic travel, while international
+  visitors follow standard U.S. entry rules.
+score:
+  cost_value: 5
+  uniqueness: 9
+  transit_ease: 7
+  family_friendliness: 9
 ---
 
 ## Summary

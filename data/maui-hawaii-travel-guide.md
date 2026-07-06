@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/maui-hawaii-travel-guide/"
 tags: [travel-guide]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["April", "May", "September", "October", "November"]
+budget_tier:
+  backpacker: "$140–160/day"
+  luxury: "$680–1200/day"
+transit_notes: "Kahului Airport (OGG) is the main gateway. Renting a car is highly recommended for driving the famous Road to Hāna and accessing Haleakalā National Park. Public transit options are limited, so driving is standard for most tourists. US citizens travel domestically, while international visitors require an ESTA or visa."
+score:
+  cost_value: 6
+  uniqueness: 10
+  transit_ease: 8
+  family_friendliness: 9
 ---
 
 ## Summary

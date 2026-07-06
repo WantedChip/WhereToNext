@@ -6,10 +6,21 @@ region: "Europe"
 source_url: "https://www.hudsonandemily.com/athens/"
 tags: [history, food, cities, culture]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: [April, May, September, October]
+budget_tier:
+  backpacker: "$100-251/day"
+  luxury: "$251-622/day"
+transit_notes: Athens International Airport is connected to the city by metro,
+  suburban rail, airport buses, taxis, and road transfers. Once in the center,
+  the metro, walking, taxis, and short rideshares make the major ruins,
+  museums, Plaka, Monastiraki, and Syntagma easy to combine. U.S. citizens can
+  typically visit Greece and the Schengen Area visa-free for short tourism stays
+  within the current 90-days-in-180-days rule, subject to current entry rules.
+score:
+  cost_value: 7
+  uniqueness: 9
+  transit_ease: 9
+  family_friendliness: 8
 ---
 
 ## Summary

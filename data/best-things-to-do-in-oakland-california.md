@@ -6,10 +6,21 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/best-things-to-do-in-oakland-california/"
 tags: [travel-guide]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: [May, June, September, October]
+budget_tier:
+  backpacker: "$121-325/day"
+  luxury: "$325-928/day"
+transit_notes: Oakland San Francisco Bay Airport is the closest airport, and
+  San Francisco International Airport is also practical for many visitors. BART
+  links the airport area through the Oakland Airport Connector and Coliseum
+  Station, while AC Transit, rideshares, walking, and BART work well for many
+  city and Bay Area trips. U.S. travelers do not need a visa for domestic travel,
+  while international visitors follow standard U.S. entry rules.
+score:
+  cost_value: 5
+  uniqueness: 5
+  transit_ease: 9
+  family_friendliness: 7
 ---
 
 ## Summary

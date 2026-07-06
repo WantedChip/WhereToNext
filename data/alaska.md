@@ -6,10 +6,22 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/alaska/"
 tags: [travel-guide]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: [June, July, August]
+budget_tier:
+  backpacker: "$121-325/day"
+  luxury: "$325-928/day"
+transit_notes: Most visitors arrive through Ted Stevens Anchorage International Airport,
+  with Fairbanks and Juneau also useful gateways depending on the route. A rental
+  car or camper is the most flexible option on the road-connected parts of the
+  state, while the Alaska Railroad, ferries, cruises, and regional flights are
+  important for Denali, coastal towns, Southeast Alaska, and remote communities.
+  U.S. travelers do not need a visa for domestic travel, while international
+  visitors follow standard U.S. entry rules.
+score:
+  cost_value: 5
+  uniqueness: 10
+  transit_ease: 5
+  family_friendliness: 7
 ---
 
 ## Summary

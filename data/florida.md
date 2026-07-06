@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/florida/"
 tags: [beaches, waterfalls]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["November", "December", "March", "April", "May"]
+budget_tier:
+  backpacker: "$90–120/day"
+  luxury: "$450–800/day"
+transit_notes: "Major gateways include Orlando International (MCO), Miami International (MIA), and Fort Lauderdale-Hollywood (FLL). Driving is the most practical way to traverse the state's expansive highway system (I-95, I-4, Florida's Turnpike), and renting a car is highly recommended. The Brightline high-speed train connects Miami, Fort Lauderdale, West Palm Beach, and Orlando. Citizens of Visa Waiver countries (e.g., EU, UK) require an ESTA for US entry."
+score:
+  cost_value: 7
+  uniqueness: 8
+  transit_ease: 9
+  family_friendliness: 10
 ---
 
 ## Summary

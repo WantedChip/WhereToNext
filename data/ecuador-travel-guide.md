@@ -6,10 +6,16 @@ region: "South America"
 source_url: "https://www.hudsonandemily.com/ecuador-travel-guide/"
 tags: [cities]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["June", "July", "August", "September"]
+budget_tier:
+  backpacker: "$30–50/day"
+  luxury: "$200–350/day"
+transit_notes: "Mariscal Sucre International Airport (UIO) in Quito and José Joaquín de Olmedo International Airport (GYE) in Guayaquil are the major international gateways. Long-distance buses are the most common and inexpensive way to travel between cities, while taxis and ride-sharing are preferred for in-city transport. Ecuador uses the US Dollar as its official currency, and citizens of most countries, including the US and EU, do not require a visa for tourist stays up to 90 days."
+score:
+  cost_value: 8
+  uniqueness: 9
+  transit_ease: 7
+  family_friendliness: 8
 ---
 
 ## Summary

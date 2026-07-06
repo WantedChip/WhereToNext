@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/los-angeles-anaheim/"
 tags: [travel-guide]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["March", "April", "May", "September", "October", "November"]
+budget_tier:
+  backpacker: "$110–120/day"
+  luxury: "$450–700/day"
+transit_notes: "Los Angeles International Airport (LAX) and John Wayne Airport (SNA) in Orange County are the primary hubs. Driving is the dominant transit method in Southern California, and renting a car is highly recommended, though ridesharing is popular and the Metro rail network connects parts of LA. A public bus links the hotels in Anaheim to Disneyland. Citizens of visa-waiver countries (e.g., EU, UK) require an ESTA for US entry."
+score:
+  cost_value: 7
+  uniqueness: 9
+  transit_ease: 7
+  family_friendliness: 10
 ---
 
 ## Summary

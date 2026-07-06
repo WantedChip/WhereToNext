@@ -6,10 +6,21 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/alberta/"
 tags: [wildlife]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: [June, July, August, September]
+budget_tier:
+  backpacker: "$71-197/day"
+  luxury: "$197-593/day"
+transit_notes: Calgary International Airport is the main gateway for Calgary,
+  Banff, Lake Louise, and much of the southern Rockies, while Edmonton is useful
+  for northern Alberta and Jasper approaches. A rental car is the easiest way to
+  link Calgary, Banff, Jasper, and scenic stops, though shuttles and buses cover
+  major tourist corridors. U.S. visitors generally need either an eTA when flying
+  to Canada or the appropriate current entry document if not visa-exempt.
+score:
+  cost_value: 6
+  uniqueness: 9
+  transit_ease: 7
+  family_friendliness: 9
 ---
 
 ## Summary

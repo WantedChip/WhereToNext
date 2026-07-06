@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/colorado/"
 tags: [travel-guide]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["June", "July", "August", "September", "December", "January", "February", "March"]
+budget_tier:
+  backpacker: "$80–120/day"
+  luxury: "$400–700/day"
+transit_notes: "Denver International Airport (DEN) is the primary hub, with local roads and interstate highways (I-70, I-25) connecting to destinations like Colorado Springs and mountain resorts. Having a rental car is highly recommended for reaching trailheads and mountain passes, though shuttle buses link Denver to major ski towns. Citizens of visa-waiver countries (e.g., EU, UK) require an ESTA for entry to the United States."
+score:
+  cost_value: 7
+  uniqueness: 8
+  transit_ease: 8
+  family_friendliness: 9
 ---
 
 ## Summary

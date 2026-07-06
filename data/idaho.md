@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/idaho/"
 tags: [waterfalls, history, road-trip]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["June", "July", "August", "September"]
+budget_tier:
+  backpacker: "$60–85/day"
+  luxury: "$250–400/day"
+transit_notes: "Boise Airport (BOI) is the primary flight gateway, with Spokane International Airport (GEG) serving northern parts like Coeur d'Alene. Renting a car or RV is essential for exploring the state's vast public lands, national forests, and scenic highways. Public transportation within cities is limited, making driving the primary mode of travel. Citizens of visa-waiver countries (e.g., EU, UK) require an ESTA for US entry."
+score:
+  cost_value: 8
+  uniqueness: 7
+  transit_ease: 7
+  family_friendliness: 9
 ---
 
 ## Summary

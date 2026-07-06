@@ -6,10 +6,16 @@ region: "Central America"
 source_url: "https://www.hudsonandemily.com/costa-rica-manuel-antonio/"
 tags: [beaches, wildlife, hiking]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["December", "January", "February", "March", "April"]
+budget_tier:
+  backpacker: "$50–80/day"
+  luxury: "$250–500/day"
+transit_notes: "Located on Costa Rica's Pacific coast, Manuel Antonio is about a 2.5 to 3-hour drive from San José's Juan Santamaría International Airport (SJO). A cheap local bus runs frequently between the nearby transport hub of Quepos and the national park entrance. Rental cars are convenient but parking is limited near the park, so public transit or shuttles are often preferred. Stays of up to 90 days are visa-free for citizens of the US, Canada, EU, and UK."
+score:
+  cost_value: 7
+  uniqueness: 9
+  transit_ease: 9
+  family_friendliness: 9
 ---
 
 ## Summary

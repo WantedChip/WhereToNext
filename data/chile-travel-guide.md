@@ -6,10 +6,16 @@ region: "South America"
 source_url: "https://www.hudsonandemily.com/chile-travel-guide/"
 tags: [travel-guide]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["November", "December", "January", "February", "March"]
+budget_tier:
+  backpacker: "$40–70/day"
+  luxury: "$250–500/day"
+transit_notes: "Most international flights arrive at Arturo Merino Benítez International Airport (SCL) in Santiago. Domestic flights are key for reaching distant regions like Patagonia (Punta Arenas/Puerto Natales) and the Atacama Desert. The long-distance bus system is highly reliable and affordable. Many tourists, including US, EU, and UK citizens, can visit visa-free for up to 90 days."
+score:
+  cost_value: 7
+  uniqueness: 9
+  transit_ease: 8
+  family_friendliness: 8
 ---
 
 ## Summary

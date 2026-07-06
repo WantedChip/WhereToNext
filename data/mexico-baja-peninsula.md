@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/mexico-baja-peninsula/"
 tags: [beaches, adventure]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["November", "December", "January", "February", "March", "April"]
+budget_tier:
+  backpacker: "$45–60/day"
+  luxury: "$250–500/day"
+transit_notes: "Los Cabos International Airport (SJD) in the south and Tijuana International Airport (TIJ) in the north are the main gateways, with La Paz Airport (LAP) also handling regional traffic. Renting a car is the most popular way to travel down the Transpeninsular Highway (Federal Highway 1), while local buses serve major towns. US, Canadian, and EU citizens enter visa-free for tourism up to 180 days, though a tourism tax applies in Baja California Sur."
+score:
+  cost_value: 8
+  uniqueness: 9
+  transit_ease: 8
+  family_friendliness: 9
 ---
 
 ## Summary

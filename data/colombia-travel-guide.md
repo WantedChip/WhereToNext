@@ -6,10 +6,16 @@ region: "South America"
 source_url: "https://www.hudsonandemily.com/colombia-travel-guide/"
 tags: [travel-guide]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["December", "January", "February", "March", "June", "July", "August"]
+budget_tier:
+  backpacker: "$30–40/day"
+  luxury: "$150–250/day"
+transit_notes: "El Dorado International Airport (BOG) in Bogotá and José María Córdova International Airport (MDE) in Medellín are the major entry points. Domestic flights (via Avianca or LATAM) are popular and affordable for traveling between distant cities like Medellín and Cartagena. Ride-sharing apps (Cabify, inDrive) are widely used in urban areas for safety, while long-distance buses connect regional locations. Citizens of the US, EU, and Canada can enter visa-free for tourism for up to 90 days."
+score:
+  cost_value: 8
+  uniqueness: 9
+  transit_ease: 7
+  family_friendliness: 7
 ---
 
 ## Summary

@@ -6,10 +6,16 @@ region: "Central America"
 source_url: "https://www.hudsonandemily.com/el-salvador-travel-guide/"
 tags: [travel-guide]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["November", "December", "January", "February"]
+budget_tier:
+  backpacker: "$20–35/day"
+  luxury: "$120–200/day"
+transit_notes: "El Salvador International Airport (SAL), located near San Salvador, is the main flight hub. Chicken buses are the cheapest way to travel regionally, while Uber is highly popular and affordable for urban transport. Renting a car is excellent for driving the scenic Ruta de las Flores. US citizens must purchase a $12 tourist card upon arrival, while EU and UK citizens can visit visa-free for up to 90 days."
+score:
+  cost_value: 9
+  uniqueness: 8
+  transit_ease: 8
+  family_friendliness: 7
 ---
 
 ## Summary

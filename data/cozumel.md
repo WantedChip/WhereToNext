@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/cozumel/"
 tags: [beaches]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["December", "January", "February", "March", "April"]
+budget_tier:
+  backpacker: "$35–50/day"
+  luxury: "$250–350/day"
+transit_notes: "Cozumel has its own international airport (CZM), or visitors can fly into Cancún (CUN) and take a bus/taxi to Playa del Carmen to catch the 45-minute passenger ferry. Scooters, car rentals, and taxis are the main ways to navigate the island's single loop road. US, Canadian, and EU citizens do not need a visa for tourism stays of up to 180 days."
+score:
+  cost_value: 8
+  uniqueness: 8
+  transit_ease: 8
+  family_friendliness: 8
 ---
 
 ## Summary

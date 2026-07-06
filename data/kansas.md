@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/kansas/"
 tags: [history, food]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["September", "October", "April", "May"]
+budget_tier:
+  backpacker: "$50–75/day"
+  luxury: "$200–350/day"
+transit_notes: "Wichita Dwight D. Eisenhower National Airport (ICT) is the state's largest airport, but Kansas City International (MCI) just across the Missouri border also serves the region. Renting a car is essential for visiting roadside attractions like the World's Largest Ball of Twine or the Strataca Salt Mines. Major interstate highways (I-70, I-35) provide easy east-west and north-south driving. Citizens of visa-waiver countries (e.g., EU, UK) require an ESTA for US entry."
+score:
+  cost_value: 9
+  uniqueness: 5
+  transit_ease: 8
+  family_friendliness: 8
 ---
 
 ## Summary

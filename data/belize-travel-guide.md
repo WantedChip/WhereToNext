@@ -6,10 +6,21 @@ region: "Central America"
 source_url: "https://www.hudsonandemily.com/belize-travel-guide/"
 tags: [beaches, wildlife, road-trip]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: [February, March, April, May]
+budget_tier:
+  backpacker: "$48-124/day"
+  luxury: "$124-333/day"
+transit_notes: Philip S. W. Goldson International Airport near Belize City is
+  the main international gateway. Domestic flights, buses, shuttles, rental
+  cars, and water taxis link Belize City with San Ignacio, Placencia, Ambergris
+  Caye, Caye Caulker, and other coastal or inland stops. U.S. citizens are
+  generally visa-exempt for short tourism visits, but onward travel documents
+  and current entry requirements should be verified.
+score:
+  cost_value: 6
+  uniqueness: 8
+  transit_ease: 6
+  family_friendliness: 7
 ---
 
 ## Summary

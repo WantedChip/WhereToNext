@@ -6,10 +6,16 @@ region: "North America"
 source_url: "https://www.hudsonandemily.com/georgia/"
 tags: [travel-guide]
 tier: null
-best_months: null
-budget_tier: null
-transit_notes: null
-score: null
+best_months: ["March", "April", "May", "September", "October", "November"]
+budget_tier:
+  backpacker: "$80–110/day"
+  luxury: "$250–430/day"
+transit_notes: "Hartsfield-Jackson Atlanta International Airport (ATL) is the busiest airport in the world and the state's main entry point, with Savannah/Hilton Head International (SAV) also serving coastal areas. Renting a car is the most practical way to travel between Atlanta, Savannah, and northern mountain spots. MARTA transit works well within Atlanta proper, while Savannah's historic core is highly walkable. Citizens of visa-waiver countries require an ESTA for US entry."
+score:
+  cost_value: 8
+  uniqueness: 7
+  transit_ease: 8
+  family_friendliness: 9
 ---
 
 ## Summary
