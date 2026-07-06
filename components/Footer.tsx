@@ -22,22 +22,6 @@ export default function Footer() {
           <p>
             &copy; {currentYear} Where To Next. Built as an explorer's ledger.
           </p>
-          <p>
-            Destinations curated from{" "}
-            <a
-              href="https://www.hudsonandemily.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-brass hover:underline hover:text-brass/90 transition-colors"
-            >
-              hudsonandemily.com
-            </a>.
-          </p>
-        </div>
-
-        {/* Coordinates stamp */}
-        <div className="font-mono text-[10px] text-brass uppercase tracking-widest bg-atlas-blue/40 border border-brass/20 px-3 py-1.5 rounded-sm">
-          9.7489° N, 83.7534° W
         </div>
 
       </div>

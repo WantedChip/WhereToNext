@@ -3,11 +3,12 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft, Compass, Calendar, Wallet, Navigation } from "lucide-react";
 import { getAllDestinations, getDestinationBySlug } from "@/lib/destinations";
-import { getCoordinatesForCountry } from "@/lib/coordinates";
 import { renderMarkdown } from "@/lib/markdown";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import TierBadge from "@/components/TierBadge";
+import BudgetConverter from "@/components/BudgetConverter";
+import AddToPlannerButton from "@/components/AddToPlannerButton";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -28,9 +29,9 @@ export default async function DestinationPage({ params }: PageProps) {
     notFound();
   }
 
-  const coords = getCoordinatesForCountry(destination.country);
-  const latStr = `${Math.abs(coords.lat).toFixed(4)}° ${coords.lat >= 0 ? "N" : "S"}`;
-  const lngStr = `${Math.abs(coords.lng).toFixed(4)}° ${coords.lng >= 0 ? "E" : "W"}`;
+  const { lat, lng } = destination.coordinates;
+  const latStr = `${Math.abs(lat).toFixed(4)}° ${lat >= 0 ? "N" : "S"}`;
+  const lngStr = `${Math.abs(lng).toFixed(4)}° ${lng >= 0 ? "E" : "W"}`;
 
   return (
     <div className="flex flex-col min-h-screen bg-ink-navy text-chart-paper font-sans">
@@ -116,28 +117,7 @@ export default async function DestinationPage({ params }: PageProps) {
               </div>
 
               {/* Budget Tier */}
-              <div className="space-y-1.5">
-                <h4 className="font-mono text-xs text-brass uppercase tracking-wider flex items-center gap-1.5">
-                  <Wallet className="h-3.5 w-3.5" />
-                  Budget Level
-                </h4>
-                <div className="font-sans text-sm text-chart-paper/95 pl-5 space-y-1">
-                  {destination.budget_tier ? (
-                    <>
-                      <div>
-                        <span className="font-semibold text-brass">Backpacker:</span>{" "}
-                        {destination.budget_tier.backpacker || "N/A"}
-                      </div>
-                      <div>
-                        <span className="font-semibold text-brass">Luxury:</span>{" "}
-                        {destination.budget_tier.luxury || "N/A"}
-                      </div>
-                    </>
-                  ) : (
-                    <span className="italic text-chart-paper/50 font-mono text-xs">Not compiled yet</span>
-                  )}
-                </div>
-              </div>
+              <BudgetConverter budgetTier={destination.budget_tier} />
 
               {/* Transit Notes */}
               <div className="space-y-1.5">
@@ -198,16 +178,36 @@ export default async function DestinationPage({ params }: PageProps) {
               </div>
 
               {/* Reference Attribution */}
-              <div className="border-t border-atlas-blue/60 pt-4 mt-4 text-xs text-chart-paper/60 leading-relaxed">
-                This entry compiles write-ups sourced from Hudson & Emily. View the original record at:
-                <a
-                  href={destination.source_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block mt-2 text-brass underline hover:text-brass/90 break-words font-mono focus:outline-none focus:ring-1 focus:ring-brass"
-                >
-                  {destination.source_url}
-                </a>
+              <div className="border-t border-atlas-blue/60 pt-4 mt-4 text-xs text-chart-paper/60 leading-relaxed space-y-3">
+                <p>
+                  This entry compiles write-ups sourced from Hudson & Emily. View the original record at:
+                  <a
+                    href={destination.source_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block mt-2 text-brass underline hover:text-brass/90 break-words font-mono focus:outline-none focus:ring-1 focus:ring-brass"
+                  >
+                    {destination.source_url}
+                  </a>
+                </p>
+                
+                {/* Google Search Link (Phase H) */}
+                <p className="text-[11px] text-chart-paper/50 italic pt-1 border-t border-atlas-blue/40">
+                  For more details, you can:
+                  <a
+                    href={`https://www.google.com/search?q=${encodeURIComponent(destination.title + " travel guide")}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-0.5 ml-1 text-brass underline hover:text-brass/90 not-italic font-sans font-semibold focus:outline-none focus:ring-1 focus:ring-brass"
+                  >
+                    [Google Search] ↗
+                  </a>
+                </p>
+              </div>
+
+              {/* Add to Planner Button (Phase G2) */}
+              <div className="border-t border-atlas-blue/60 pt-4 mt-4">
+                <AddToPlannerButton slug={destination.slug} />
               </div>
             </section>
           </aside>

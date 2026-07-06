@@ -21,5 +21,9 @@ export interface Destination {
     transit_ease: number;
     family_friendliness: number;
   } | null;
+  coordinates: {
+    lat: number;
+    lng: number;
+  };
   content: string; // Markdown body content
 }

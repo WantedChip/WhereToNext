@@ -24,13 +24,26 @@ export function getAllDestinations(): Destination[] {
     const slug = filename.replace(/\.md$/, "");
 
     // Validate required fields
-    const requiredFields = ["title", "destination", "country", "region", "source_url", "tags"];
+    const requiredFields = ["title", "destination", "country", "region", "source_url", "tags", "coordinates"];
     for (const field of requiredFields) {
       if (data[field] === undefined) {
         throw new Error(
           `Validation failed for ${filename}: Missing required frontmatter field "${field}"`
         );
       }
+    }
+
+    if (data.coordinates.lat === undefined || data.coordinates.lng === undefined) {
+      throw new Error(
+        `Validation failed for ${filename}: Coordinates must contain both lat and lng`
+      );
+    }
+    const lat = Number(data.coordinates.lat);
+    const lng = Number(data.coordinates.lng);
+    if (isNaN(lat) || isNaN(lng)) {
+      throw new Error(
+        `Validation failed for ${filename}: lat and lng must be valid numbers`
+      );
     }
 
     if (!Array.isArray(data.tags)) {
@@ -80,6 +93,10 @@ export function getAllDestinations(): Destination[] {
       } : null,
       transit_notes: data.transit_notes ? String(data.transit_notes) : null,
       score: scoreObj,
+      coordinates: {
+        lat,
+        lng,
+      },
       content,
     };
 

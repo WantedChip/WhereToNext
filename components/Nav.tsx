@@ -16,6 +16,7 @@ export default function Nav({ floating = false }: NavProps) {
   const links = [
     { href: "/tiers", label: "Tiers", icon: Star },
     { href: "/search", label: "Search", icon: Search },
+    { href: "/planner", label: "Planner", icon: Compass },
     { href: "/about", label: "About", icon: Info },
   ];
 

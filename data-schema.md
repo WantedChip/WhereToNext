@@ -23,6 +23,9 @@ score:                            # leave null until scored
   uniqueness: number              # 1-10
   transit_ease: number            # 1-10
   family_friendliness: number     # 1-10
+coordinates:
+  lat: number                     # geographic latitude
+  lng: number                     # geographic longitude
 ---
 ```
 
